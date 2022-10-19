@@ -1,0 +1,10 @@
+name: MyFirstPlugin
+version: '${project.version}'
+main: me.hazzy.myfirstplugin.MyFirstPlugin
+api-version: 1.19
+authors: [ Hazzy ]
+
+commands:
+  tntammount:
+    description: The Ammount of TNT you want to summon
+    usage: /<command>
